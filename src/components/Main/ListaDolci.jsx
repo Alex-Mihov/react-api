@@ -26,6 +26,7 @@ export default function ListaDolci() {
 
                     <div key={post.id}>
                         <h2>{post.title}</h2>
+                        <img src={post.image} alt={post.title} />
                         <span>{post.content}</span>
                         <h3>{post.tags}</h3>
                     </div>
