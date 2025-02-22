@@ -1,0 +1,12 @@
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post img {
+    width: 20%;
+}
+
+.post span {
+    width: 40%;
+}
